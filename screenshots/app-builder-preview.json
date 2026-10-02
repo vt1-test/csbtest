@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Meridian",
+      "hasCanvas": false,
+      "bodyTextLen": 797,
+      "bodyTextHash": "95364039dda0adf653a44ed040c050b77dd20092dbe8126fe7aff341e92c4cf9",
+      "bodyTextPrefix": "M Meridian Catalog PROFESSIONAL MOCK EXAMS Sit a mock exam the w",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Meridian",
+      "hasCanvas": false,
+      "bodyTextLen": 789,
+      "bodyTextHash": "cb1f42120520261235b43b0f6ef8f2036bbd4f0e05c99221b702c14deca70b58",
+      "bodyTextPrefix": "M Meridian PROFESSIONAL MOCK EXAMS Sit a mock exam the way you w",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

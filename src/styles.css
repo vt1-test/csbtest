@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-bg: #f3f6fa;
+  --color-background: #f3f6fa;
+  --color-card: #ffffff;
+  --color-foreground: #17324d;
+  --color-fg: #17324d;
+  --color-muted: #5b7086;
+  --color-muted-foreground: #5b7086;
+  --color-primary: #10bfa3;
+  --color-primary-foreground: #04352e;
+  --color-secondary: #087cc1;
+  --color-secondary-foreground: #ffffff;
+  --color-accent: #087cc1;
+  --color-accent-foreground: #ffffff;
+  --color-option: #f1f4f8;
+  --color-border: #d5dde5;
+  --color-input: #d5dde5;
+  --color-ring: #10bfa3;
+  --color-success: #0c9a82;
+  --color-success-fg: #04352e;
+  --color-danger: #c4453c;
+  --color-danger-fg: #fff;
+  --color-warning: #c47b16;
+  --color-destructive: #c4453c;
+  --color-destructive-foreground: #ffffff;
+  --color-popover: #ffffff;
+  --color-popover-foreground: #17324d;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 0.875rem;
+  --radius-xl: 1.25rem;
+  --radius: 0.75rem;
+  --font-sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-serif: "IBM Plex Serif", "Georgia", serif;
+  --shadow-card: 0 1px 2px rgb(23 50 77 / 0.05), 0 8px 24px rgb(23 50 77 / 0.04);
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html,
+  body,
+  #app {
+    min-height: 100%;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
